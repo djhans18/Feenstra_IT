@@ -21,7 +21,7 @@ class View{
     	echo "<html>";
     	echo "<head>";
     	echo "<meta name='viewport' content='width=device-width, initial-scale=1'>";
-		echo "<base href='http://localhost/Portfolio/public/'>";
+		echo "<base href='http://localhost/Feenstra_IT/public/'>";
     	echo "<title>Feenstra IT - " . $this->title . "</title>";
 
     	foreach ($this->defaultCss as $css) {
