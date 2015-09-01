@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	/*background-color: gray; */
+}
+
+.navbar-default {
+	background-image: url("../images/carbon.png");
+}
+
+.navbar-brand{
+	padding: 0;
+}
+
+.navbar-brand img{
+	height: 130%;
+	display: inline;
+	z-index: 1040;
+}
+
+#wrapper{
+	padding-top: 50px;
+}
+
+.container{
+	
+	/*box-shadow: 5px 5px 5px 5px #888888; */
+}
+
+#slider{
+	display: none;
+	position: relative;
+	margin: 0 auto;
+	width: 980px;
+	height: 380px;
+	overflow: hidden;
+}
+
+
+#aboutme{
+	width: 90%;
+	margin: 0 auto;
+	/*box-shadow: 5px 5px 5px 5px #888888; */    
+}
+
+#aboutme div{
+	padding: 10px;
+}
+
+#aboutme div img{
+	width: 100%;
+}
+
+#cases{
+
+}
+
+#cases div img{
+	width: 100%;
+}
