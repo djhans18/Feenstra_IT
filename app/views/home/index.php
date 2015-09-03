@@ -93,6 +93,9 @@
 
 			<div id="cases" class="row">
 				<div class="col-md-4">
+					<div class="cases-header">
+						<h3><?php echo $this->data[0]->name ?></h3>
+					</div>
 					<div class="cases-image">
 						<img src="images/placeholder.jpg">
 					</div>
@@ -101,6 +104,9 @@
 					</div>
 				</div>
 				<div class="col-md-4">
+					<div class="cases-header">
+						<h3><?php echo $this->data[1]->name ?></h3>
+					</div>
 					<div class="cases-image">
 						<img src="images/placeholder.jpg">
 					</div>
@@ -109,6 +115,9 @@
 					</div>
 				</div>
 				<div class="col-md-4">
+					<div class="cases-header">
+						<h3><?php echo $this->data[2]->name ?></h3>
+					</div>
 					<div class="cases-image">
 						<img src="images/placeholder.jpg">
 					</div>

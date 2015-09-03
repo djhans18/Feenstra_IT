@@ -1,5 +1,5 @@
 <?php
 
-class User{
+class User extends Eloquent{
 	public $name;
 }

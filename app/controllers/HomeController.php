@@ -3,10 +3,15 @@
 class HomeController extends Controller{
 	public function init(){
 
-		$cases = Cases::getAllCases();
-		echo $cases;
+		$cases = Cases::all();
+		print_r($cases);
 
-		$view = new View('Home', array(), array(), array('header', 'home'), array());
+		echo $cases[1]->id;
+		//die;
+
+		$data = [];
+
+		$view = new View('Home', array(), array(), array('header', 'home'), $cases);
 		$view->render();
 	}
 }

@@ -1,8 +1,13 @@
 <?php
 
+//custom autoloader without eloquent
+/*
+
 function __autoload($model) {
     	require_once '../app/models/' . $model . '.php';
 }
+
+*/
 
 class App{
 
