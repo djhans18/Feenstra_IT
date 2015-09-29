@@ -63,7 +63,7 @@
 						<img src="images/About_Me.jpg">
 					</div>
 					<div class="aboutme-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non odio sed sem efficitur fringilla a sit amet eros. Aenean ipsum lorem, sodales sit amet tincidunt sed, ullamcorper vitae sem. Praesent quis erat vel mi ullamcorper luctus ut a neque. Nam dignissim, tellus id ultrices ultrices, risus quam facilisis mauris.</p>
+						<p><?php echo $this->data[1][0]->content ?></p>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -94,35 +94,35 @@
 			<div id="cases" class="row">
 				<div class="col-md-4">
 					<div class="cases-header">
-						<h3><?php echo $this->data[0]->name ?></h3>
+						<h3><?php echo $this->data[0][0]->name ?></h3>
 					</div>
 					<div class="cases-image">
-						<img src="images/placeholder.jpg">
+						<img src="images/projects/<?php echo $this->data[0][0]->imgurl ?>">
 					</div>
 					<div class="cases-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non odio sed sem efficitur fringilla a sit amet eros. Aenean ipsum lorem, sodales sit amet tincidunt sed, ullamcorper vitae sem. Praesent quis erat vel mi ullamcorper luctus ut a neque. Nam dignissim, tellus id ultrices ultrices, risus quam facilisis mauris.</p>
+						<p><?php echo $this->data[0][0]->description; ?></p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="cases-header">
-						<h3><?php echo $this->data[1]->name ?></h3>
+						<h3><?php echo $this->data[0][1]->name; ?></h3>
 					</div>
 					<div class="cases-image">
-						<img src="images/placeholder.jpg">
+						<img src="images/projects/<?php echo $this->data[0][1]->imgurl ?>">
 					</div>
 					<div class="cases-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non odio sed sem efficitur fringilla a sit amet eros. Aenean ipsum lorem, sodales sit amet tincidunt sed, ullamcorper vitae sem. Praesent quis erat vel mi ullamcorper luctus ut a neque. Nam dignissim, tellus id ultrices ultrices, risus quam facilisis mauris.</p>
+						<p><?php echo $this->data[0][1]->description; ?></p>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="cases-header">
-						<h3><?php echo $this->data[2]->name ?></h3>
+						<h3><?php echo $this->data[0][2]->name; ?></h3>
 					</div>
 					<div class="cases-image">
 						<img src="images/placeholder.jpg">
 					</div>
 					<div class="cases-content">
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque non odio sed sem efficitur fringilla a sit amet eros. Aenean ipsum lorem, sodales sit amet tincidunt sed, ullamcorper vitae sem. Praesent quis erat vel mi ullamcorper luctus ut a neque. Nam dignissim, tellus id ultrices ultrices, risus quam facilisis mauris.</p>
+						<p><?php echo $this->data[0][2]->description; ?></p>
 					</div>
 				</div>
 			</div>

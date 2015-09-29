@@ -4,14 +4,9 @@ class HomeController extends Controller{
 	public function init(){
 
 		$cases = Cases::all();
-		print_r($cases);
+		$aboutme = AboutMe::all();
 
-		echo $cases[1]->id;
-		//die;
-
-		$data = [];
-
-		$view = new View('Home', array(), array(), array('header', 'home'), $cases);
+		$view = new View('Home', [], [], array('header', 'home'), [$cases, $aboutme]);
 		$view->render();
 	}
 }
